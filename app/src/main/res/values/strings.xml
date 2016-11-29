@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zero</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">CANCEL</string>
+
+    <string name="close_circle"></string>
+    <string name="edit"></string>
+    <string name="check"></string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_grey"
+    android:orientation="vertical">
+
+    <carbon.widget.RelativeLayout
+        android:id="@+id/rlContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:carbon_rippleColor="@color/defaultRippleInverted">
+
+        <CheckBox
+            android:id="@+id/cbItemStatus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/globalPadding"
+            android:layout_marginEnd="@dimen/editTextPadding"
+            android:layout_marginLeft="@dimen/cardPadding"
+            android:layout_marginRight="@dimen/editTextPadding"
+            android:layout_marginStart="@dimen/cardPadding"
+            android:layout_marginTop="@dimen/globalPadding"
+            app:buttonTint="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/llItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/globalPadding"
+            android:layout_marginEnd="@dimen/editTextPadding"
+            android:layout_marginRight="@dimen/editTextPadding"
+            android:layout_marginTop="@dimen/globalPadding"
+            android:layout_marginLeft="@dimen/editTextPadding"
+            android:layout_marginStart="@dimen/editTextPadding"
+            android:layout_toRightOf="@+id/cbItemStatus"
+            android:layout_toEndOf="@+id/cbItemStatus"
+            android:layout_toLeftOf="@+id/flEdit"
+            android:layout_toStartOf="@+id/flEdit"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <fontana.RobotoTextView
+                android:id="@+id/tvItemId"
+                android:layout_width="0dp"
+                android:layout_height="0dp" />
+
+            <fontana.RobotoTextView
+                android:id="@+id/tvItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/primaryTextLight"
+                android:textSize="@dimen/subhead" />
+
+            <fontana.RobotoTextView
+                android:id="@+id/tvItemCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/secondaryTextLight"
+                android:textSize="@dimen/body1" />
+        </LinearLayout>
+
+        <carbon.widget.FrameLayout
+            android:id="@+id/flEdit"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/globalPadding"
+            android:layout_marginTop="@dimen/globalPadding"
+            android:layout_toLeftOf="@+id/flClose"
+            android:layout_toStartOf="@+id/flClose"
+            android:padding="@dimen/cardPadding"
+            app:carbon_cornerRadius="18dp"
+            app:carbon_rippleColor="@color/defaultRipple">
+
+            <fontana.MaterialIconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/edit"
+                android:textColor="@color/secondaryTextLight"
+                android:textSize="@dimen/subhead" />
+        </carbon.widget.FrameLayout>
+
+        <carbon.widget.FrameLayout
+            android:id="@+id/flClose"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/globalPadding"
+            android:layout_marginEnd="@dimen/cardPadding"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="@dimen/cardPadding"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="@dimen/globalPadding"
+            android:padding="@dimen/cardPadding"
+            app:carbon_cornerRadius="18dp"
+            app:carbon_rippleColor="@color/defaultRipple">
+
+            <fontana.MaterialIconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/close_circle"
+                android:textColor="@color/secondaryTextLight"
+                android:textSize="@dimen/subhead" />
+        </carbon.widget.FrameLayout>
+    </carbon.widget.RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#15000000"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"/>
+</LinearLayout>

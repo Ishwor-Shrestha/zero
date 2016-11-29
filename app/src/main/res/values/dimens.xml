@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="globalPadding">16dp</dimen>
+    <dimen name="globalPaddingLeft">@dimen/globalPadding</dimen>
+    <dimen name="globalPaddingRight">@dimen/globalPadding</dimen>
+    <!-- icons and avatars -->
+    <dimen name="imageIconSize">24dp</dimen>
+    <dimen name="fontIconSize">24sp</dimen>
+    <dimen name="imageFormIconSize">16dp</dimen>
+    <dimen name="fontFormIconSize">22sp</dimen>
+    <dimen name="fontFormIconSizeAlt">28sp</dimen>
+    <dimen name="avatars">56dp</dimen>
+    <dimen name="avatarBorder">2dp</dimen>
+    <!-- Button metrics -->
+    <dimen name="touchTargetHeight">48dp</dimen>
+    <dimen name="buttonHeight">36dp</dimen>
+    <dimen name="buttonHeightAlt">50dp</dimen>
+    <dimen name="raisedButtonWidth">250dp</dimen>
+    <dimen name="raisedBtnRadius">2dp</dimen>
+    <dimen name="raisedBtnElevation">2dp</dimen>
+    <!-- Dialog metrics -->
+    <dimen name="dialogPadding">24dp</dimen>
+    <dimen name="dialogPaddingLeft">@dimen/dialogPadding</dimen>
+    <dimen name="dialogPaddingRight">@dimen/dialogPadding</dimen>
+    <dimen name="dialogPaddingBottom">16dp</dimen>
+    <dimen name="dialogTouchAreaMarginBottom">8dp</dimen>
+    <dimen name="dialogButtonSpacing">8dp</dimen>
+    <dimen name="dialogButtonAreaPaddingRight">16dp</dimen>
+    <!-- Dialog buttons -->
+    <dimen name="dialogButtonMinWidth">64dp</dimen>
+    <dimen name="dialogButtonExternalPadding">4dp</dimen>
+    <dimen name="dialogButtonInternalPadding">8dp</dimen>
+    <!-- Floating action button -->
+    <dimen name="fabImageIcon">24dp</dimen>
+    <dimen name="fabFontIcon">24sp</dimen>
+    <dimen name="fabNormal">56dp</dimen>
+    <dimen name="fabSmall">40dp</dimen>
+    <!-- Typography -->
+    <dimen name="headline">24sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="subhead">16sp</dimen>
+    <dimen name="head">18sp</dimen>
+    <dimen name="body1">14sp</dimen>
+    <dimen name="body2">@dimen/body1</dimen>
+    <dimen name="label">12sp</dimen>
+    <dimen name="labelSmall">10sp</dimen>
+    <dimen name="labelExtraSmall">8sp</dimen>
+    <dimen name="caption">12sp</dimen>
+    <dimen name="buttonFont">14sp</dimen>
+    <dimen name="display">28sp</dimen>
+    <dimen name="display1">34sp</dimen>
+    <dimen name="display1.5">38sp</dimen>
+    <dimen name="display2">45sp</dimen>
+    <dimen name="display3">56sp</dimen>
+    <dimen name="display4">112sp</dimen>
+    <!-- Additional metrics -->
+    <dimen name="cardFont">18sp</dimen>
+    <dimen name="singleBottomMargin">10dp</dimen>
+    <dimen name="doubleBottomMargin">20dp</dimen>
+    <dimen name="toolbarHeight">56dp</dimen>
+    <dimen name="toolbarHeight_alt">112dp</dimen>
+    <dimen name="expandedHeight">210dp</dimen>
+    <dimen name="fontIcon">16sp</dimen>
+    <dimen name="cardPadding">8dp</dimen>
+    <dimen name="editTextPadding">4dp</dimen>
+    <dimen name="cardButtonPadding">16dp</dimen>
+    <dimen name="cardImageRadius">2dp</dimen>
+    <dimen name="cardImageSize">64dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="multiText">150dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+</resources>
